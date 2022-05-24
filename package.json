@@ -1,0 +1,25 @@
+{
+  "name": "rxnav-ndc-lookup",
+  "version": "1.0.0",
+  "description": "Looks up a list of National Drug Codes and queries their status in the NIH database",
+  "main": "run.js",
+  "dependencies": {
+    "line-by-line": "^0.1.6",
+    "sprintf-js": "^1.1.2",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaanProphet/rxnav-ndc-lookup.git"
+  },
+  "author": "Krishna Bhamidipati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaanProphet/rxnav-ndc-lookup/issues"
+  },
+  "homepage": "https://github.com/NaanProphet/rxnav-ndc-lookup#readme"
+}
