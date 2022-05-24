@@ -1,4 +1,4 @@
-#rxnav-ndc-lookup
+# rxnav-ndc-lookup
 
 This script queries the NIH's RXNav database in bulk. It looks up a list of NDCs (National Drug Codes) and creates an output CSV with its status and associated information.
 
