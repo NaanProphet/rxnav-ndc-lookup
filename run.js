@@ -11,7 +11,7 @@ const GET_NDC_STATUS_ENDPOINT = '/REST/ndcstatus.json';
 
 // single column, each NDC on a new line
 const INPUT_FILE = path.join(__dirname, 'input.csv');
-const OUTPUT_HEADERS = 'NDC,CUI,Status,Concept Status,Concept Name';
+const OUTPUT_HEADERS = 'NDC,CUI,NDC Status,CUI Status,CUI Name';
 const OUTPUT_FILE = path.join(__dirname, 'output.csv');
 // overwrite the output file each run
 fs.writeFileSync(OUTPUT_FILE, OUTPUT_HEADERS);

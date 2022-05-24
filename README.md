@@ -21,9 +21,9 @@ The output CSV has five columns:
 
 1. NDC (National Drug Code, this represents the brand ID of the drug-dosage combo)
 2. CUI (Concept Unique Identifer, this represents the generic ID of the drug-dosage combo)
-3. Status
-4. Concept Status
-5. Concept Name
+3. NDC Status (the status of the brand drug-dosage)
+4. CUI Status (the status of the generic drug-dosage, can be different from NDC Status)
+5. CUI Name (the name of the generic drug-dosage)
 
 ## References
 
