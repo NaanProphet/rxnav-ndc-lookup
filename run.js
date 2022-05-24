@@ -44,7 +44,7 @@ lr.on('line', function (line) {
     console.warn('Lookup up NDC: ' + ndcToLookup);
     const response = request('GET', RXNAV_BASEURL + GET_NDC_STATUS_ENDPOINT + '?' + 'ndc=' + ndcToLookup);
     const resData = JSON.parse(response.getBody()).ndcStatus;
-    const outputLine = `${resData.ndc11},${resData.rxcui},${resData.status},${resData.conceptStatus},${resData.conceptName}`;
+    const outputLine = `${resData.ndc11},${resData.rxcui},${resData.status},${resData.conceptStatus},"${resData.conceptName}"`;
     logger.write('\n' + outputLine);
 });
 
